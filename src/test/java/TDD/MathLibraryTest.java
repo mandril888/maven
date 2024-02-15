@@ -47,6 +47,6 @@ class MathLibraryTest {
     @DisplayName("Sum a List of positive & negative ints with sumList() method")
     void sumList_arrListPositiveAndNegativeInts_Summed() {
         assertEquals(1, math.sumList(Arrays.asList(1,-1,1,-1,1)));
-        assertEquals(-25, math.sumList(Arrays.asList(-10,2,3,5,-5)));
+        assertEquals(-5, math.sumList(Arrays.asList(-10,2,3,5,-5)));
     }
 }
